@@ -19,6 +19,7 @@
     <modules>
         <module>service-registry</module>
         <module>api-gateway</module>
+        <module>course-service</module>
     </modules>
 
     <properties>
