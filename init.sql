@@ -1,0 +1,2 @@
+CREATE DATABASE student_db;
+CREATE DATABASE course_db;
