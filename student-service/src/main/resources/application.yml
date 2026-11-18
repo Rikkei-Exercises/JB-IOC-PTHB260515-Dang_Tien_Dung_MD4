@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: student-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/student_db
+    username: postgres
+    password: "04082001"
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
